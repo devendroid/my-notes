@@ -56,7 +56,7 @@
    - And this below 2 methods would be call on this Fragment. <br><br> 
 8. onPause()    
 9. onStop() <br><br>
-   - If remove this Fragment below 2 methods would be call on this Fragment.<br><br> 
+   - If remove this Fragment below methods would be call on this Fragment.<br><br> 
 10. onDestroyView()   
     ***onSaveInstanceState() --> Can call any time before onDestroy.***
 11. onDestroy()   
