@@ -13,7 +13,7 @@
 
 - **AIDL**  - Android Interface Defination Language works between Native code (like .c, .cpp) and Source code (.java).<br><br>
 - **.dex** - Dalvik Executable file. <br><br>
-- **.AAPT** - Android Assets Packaging Tool kit, that helps to create .apk.<br><br>
+- **AAPT** - Android Assets Packaging Tool kit, that helps to create .apk.<br><br>
 - **.apk** - Just a packaged single file (like a zip) including .dex, .xml and some other resources.<br><br>
 - **JVM** - Java Virtual Machine, to run .class file in java.<br><br>
 - **DVM or ART since android 5.0-lollipop** - Dalvik Virtual Machine or Android Run Time, to run .dex files packaged under single .apk file (Note: .dex file can't run by JVM).<br><br> 
