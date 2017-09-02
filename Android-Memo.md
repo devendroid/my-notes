@@ -36,7 +36,7 @@
  - jCenter - Hosted on bintray.com (default by android studio).<br><br>
  - mavenCentral - Hosted on sonatype.org.
  
- ### Something about gradle Fragment
+ ### Something about Fragment
  
  #### &nbsp;&nbsp;&nbsp;&nbsp;Why we should use?
  - **Reusability** - One Fragment can use by multiple Activities.<br><br>
