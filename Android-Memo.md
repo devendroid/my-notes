@@ -40,7 +40,7 @@
  
  #### &nbsp;&nbsp;&nbsp;&nbsp;Why we should use?
  - **Reusability** - One Fragment can use by multiple Activities.<br><br>
- - **Flexibility** - One Activity can use by multiple Fragments.<br><br>
+ - **Flexibility** - One Activity can use multiple Fragments.<br><br>
  - **Dynamically Handling** - Add/Rplace/Remove dynamically while Activity is running.
  
  #### &nbsp;&nbsp;&nbsp;&nbsp;Lifecycle
