@@ -5,7 +5,7 @@
 
 ![](assets/process.jpg)
 
-### Java to APK Process Process
+### Java to APK Process
 
 ![](assets/code-flow.png)
 
