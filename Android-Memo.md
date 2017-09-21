@@ -16,7 +16,7 @@
 - **AAPT** - Android Assets Packaging Tool kit, that helps to create .apk.<br><br>
 - **.apk** - Just a packaged single file (like a zip) including .dex, .xml and some other resources.<br><br>
 - **JVM** - Java Virtual Machine, to run .class file in java.<br><br>
-- **DVM or ART since android 5.0-lollipop** - Dalvik Virtual Machine or Android Run Time, to run .dex files packaged under single .apk file (Note: .dex file can't run by JVM).<br><br> 
+- **DVM or ART (from android 5.0-lollipop)** - Dalvik Virtual Machine or Android Run Time, to run .dex files packaged under single .apk file (Note: .dex file can't run by JVM).<br><br> 
 - **.JIT** - Just In Time used by DVM, It interpret to native code during run time.<br><br>    
 - **.AOT** - Ahead Of Time used by ART, It compile to native code once at app installation time and keep in single ".oat" file for execution.<br><br> 
 
