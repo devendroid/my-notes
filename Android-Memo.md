@@ -62,3 +62,12 @@
 11. onDestroy()   
 12. onDetach()   
    
+### Background Task Evolution  
+
+1. Thread
+2. AsynchTask
+3. Service
+4. IntentService
+5. Loader - CursorLoader/AsynchTaskLoader
+6. JobService and Job Schedular (from lolipop)
+7. RxJava
