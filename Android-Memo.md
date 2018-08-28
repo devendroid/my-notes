@@ -70,10 +70,10 @@
 4. IntentService
 5. Loader - CursorLoader/AsynchTaskLoader
 6. JobService and Job Schedular (from lolipop)
-7. **RxJava/Andoid**
-   Java/Android implementation of **Reactive Programming** principles and its based on **Observer Pattern**
+7. **RxJava/Andoid** - Java/Android implementation of **Reactive Programming** principles and its based on **Observer Pattern**
 
 ### Design Patterns in Java/Android
+
 Design patterns are reusable solutions to the most commonly occurring software problems. They can speed up the development process by providing a proven way of resolving frequent issues.
 
 1. Creational Design Patterns
