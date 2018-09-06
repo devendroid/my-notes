@@ -70,7 +70,7 @@
 4. IntentService
 5. Loader - CursorLoader/AsynchTaskLoader
 6. JobService and Job Schedular (from lolipop)
-7. **RxJava/Andoid** - Java/Android implementation of **Reactive Programming** principles and its based on **Observer Pattern**
+7. **RxJava/Andoid** - Java/Android implementation of **ReactiveX (Reactive Extensions)** ( a library for composing asynchronous and event-based programs by using observable sequences). Its based on **Observer Pattern**
 
 ### Design Patterns in Java/Android
 
