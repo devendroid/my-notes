@@ -117,8 +117,9 @@ Android architecture components are a collection of libraries that help you desi
 Android Jetpack is a collection of Android software components that also known as Android Jetpack components which helps developers to follow best practices and build great Android apps.
 
 #### Android Jetpack Components
-Android Jetpack components are a collection of libraries that are individually adoptable and built to work together while taking advantage of Kotlin language features that make us more productive.<br> 
-These software components have been arranged in 4 categories which are as follows:<br><br>
+Android Jetpack components are a collection of libraries that are individually adoptable and built to work together while taking advantage of Kotlin language features that make us more productive.<br>
+These libraries comes under the **androidx.*** package and these are unbundled from the platform APIs, therefore it offers backward compatibility as well.<br>
+These software components have been arranged in 4 categories which are as follows:
 
 **1. Foundation Components -**
 
