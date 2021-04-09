@@ -41,7 +41,7 @@
  #### &nbsp;&nbsp;&nbsp;&nbsp;Why we should use?
  - **Reusability** - One Fragment can use by multiple Activities.<br><br>
  - **Flexibility** - One Activity can use multiple Fragments.<br><br>
- - **Dynamically Handling** - Add/Rplace/Remove dynamically while Activity is running.
+ - **Dynamically Handling** - Add/Replace/Remove dynamically while Activity is running.
  
  #### &nbsp;&nbsp;&nbsp;&nbsp;Lifecycle
  
@@ -71,6 +71,7 @@
 5. Loader - CursorLoader/AsynchTaskLoader
 6. JobService and Job Schedular (from lolipop)
 7. **RxJava/Andoid** - Java/Android implementation of **ReactiveX (Reactive Extensions)** ( a library for composing asynchronous and event-based programs by using observable sequences). Its based on **Observer Pattern**
+8. Coroutine: A lightweight thread to do asynchronous task/job.
 
 ### Design Patterns in Java/Android
 
