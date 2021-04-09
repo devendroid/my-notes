@@ -114,20 +114,20 @@ Android architecture components are a collection of libraries that help you desi
 
 ### Android Jetpack
 
-Android Jetpack is a collection of Android software components that also known as Android Jetpack components which helps developers to follow best practices and build great Android apps.<br><br>
+Android Jetpack is a collection of Android software components that also known as Android Jetpack components which helps developers to follow best practices and build great Android apps.
 
 #### Android Jetpack Components
 Android Jetpack components are a collection of libraries that are individually adoptable and built to work together while taking advantage of Kotlin language features that make us more productive.<br> 
 These software components have been arranged in 4 categories which are as follows:<br><br>
 
-**1. Foundation Components - **
+**1. Foundation Components -**
 
 - [App Compat](http://https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat "App Compat") Degrade gracefully on older versions of Android with material design user interface implementation support.
 - [Android KTX](http://https://developer.android.com/kotlin/ktx "Android KTX") Set of Kotlin extensions to write more concise, idiomatic Kotlin code.
 - [Multidex](http://https://developer.android.com/studio/build/multidex "Multidex") Provide support for multiple dex files for apps.
 - [Test](http://https://developer.android.com/training/testing/ "Test") A testing framework for unit and runtime UI tests in Android.
     
-**2. Architecture Components - **
+**2. Architecture Components -**
 
 - [Data Binding](http://https://developer.android.com/topic/libraries/data-binding/ "Data Binding") Declaratively bind UI elements to in our layout to data sources of our app.
 - [Lifecycles](http://https://developer.android.com/topic/libraries/architecture/lifecycle "Lifecycles") Manages activity and fragment lifecycles of our app.
@@ -138,7 +138,7 @@ These software components have been arranged in 4 categories which are as follow
 - [ViewModel](http://https://developer.android.com/topic/libraries/architecture/viewmodel "ViewModel") Manage UI-related data in a lifecycle-conscious way.
 - [WorkManager](http://https://developer.android.com/topic/libraries/architecture/workmanager/ "WorkManager") Manage every background jobs in Android with the circumstances we choose.
 
-**3. Behavior Components - **
+**3. Behavior Components -**
 
 - [Download Manager](http://https://developer.android.com/reference/android/app/DownloadManager "Download Manager") Schedule and manage large downloads in background with auto retry support.
 - [Media & playback](http://https://developer.android.com/guide/topics/media-apps/media-apps-overview "Media & playback") Backwards compatible APIs for media playback and routing (including Google Cast).
@@ -148,7 +148,7 @@ These software components have been arranged in 4 categories which are as follow
 - [Sharing](http://https://developer.android.com/training/sharing/shareaction "Sharing") Provides a share action suitable for an app’s action bar.
 - [Slices](http://https://developer.android.com/guide/slices "Slices") Create flexible UI elements that can display app data outside the app and can be extended all the way back to Android 4.4.
 
-**4. UI Components - **
+**4. UI Components -**
 
 - [Animation and transitions](http://https://developer.android.com/training/animation/ "Animation and transitions") Move widgets and transition between screens.
 - [Auto](http://https://developer.android.com/auto "Auto") Components to develop Android Auto apps.
