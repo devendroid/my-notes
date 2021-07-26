@@ -12,6 +12,7 @@
 - **Recyclerview** (Overview + Practical)
 - **Navigation drawer** (Overview + Practical)
 - **Fragments with back stack management** (Overview + Practical)
+- **Bottom Navigation View** (Overview + Practical)
 - **Shared Preference** (Overview + Practical) 
 - **Room DB** (Overview + Practical)
 - **Camera & Gallery to pick image** (Overview + Practical)
