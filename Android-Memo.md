@@ -123,40 +123,44 @@ These software components have been arranged in 4 categories which are as follow
 
 **1. Foundation Components -**
 
-- [App Compat](http://https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat "App Compat") Degrade gracefully on older versions of Android with material design user interface implementation support.
-- [Android KTX](http://https://developer.android.com/kotlin/ktx "Android KTX") Set of Kotlin extensions to write more concise, idiomatic Kotlin code.
-- [Multidex](http://https://developer.android.com/studio/build/multidex "Multidex") Provide support for multiple dex files for apps.
-- [Test](http://https://developer.android.com/training/testing/ "Test") A testing framework for unit and runtime UI tests in Android.
+- [App Compat](https://developer.android.com/topic/libraries/support-library/packages#v7-appcompat "App Compat") Degrade gracefully on older versions of Android with material design user interface implementation support.
+- [Android KTX](https://developer.android.com/kotlin/ktx "Android KTX") Set of Kotlin extensions to write more concise, idiomatic Kotlin code.
+- [Multidex](https://developer.android.com/studio/build/multidex "Multidex") Provide support for multiple dex files for apps.
+- [Test](https://developer.android.com/training/testing/ "Test") A testing framework for unit and runtime UI tests in Android.
+- And many more....
     
 **2. Architecture Components -**
 
-- [Data Binding](http://https://developer.android.com/topic/libraries/data-binding/ "Data Binding") Declaratively bind UI elements to in our layout to data sources of our app.
-- [Lifecycles](http://https://developer.android.com/topic/libraries/architecture/lifecycle "Lifecycles") Manages activity and fragment lifecycles of our app.
-- [LiveData](http://https://developer.android.com/topic/libraries/architecture/livedata "LiveData") Notify views of any database changes.
-- [Navigation](http://https://developer.android.com/topic/libraries/architecture/navigation/ "Navigation") Handle everything needed for in-app navigation.
-- [Paging](http://https://developer.android.com/topic/libraries/architecture/paging/ "Paging") Gradually load information on demand from your data source.
-- [Room](http://https://developer.android.com/topic/libraries/architecture/room "Room") Fluent SQLite database access.
-- [ViewModel](http://https://developer.android.com/topic/libraries/architecture/viewmodel "ViewModel") Manage UI-related data in a lifecycle-conscious way.
-- [WorkManager](http://https://developer.android.com/topic/libraries/architecture/workmanager/ "WorkManager") Manage every background jobs in Android with the circumstances we choose.
+- [Data Binding](https://developer.android.com/topic/libraries/data-binding/ "Data Binding") Declaratively bind UI elements to in our layout to data sources of our app.
+- [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle "Lifecycles") Manages activity and fragment lifecycles of our app.
+- [LiveData](https://developer.android.com/topic/libraries/architecture/livedata "LiveData") Notify views of any database changes.
+- [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/ "Navigation") Handle everything needed for in-app navigation.
+- [Paging](https://developer.android.com/topic/libraries/architecture/paging/ "Paging") Gradually load information on demand from your data source.
+- [Room](https://developer.android.com/topic/libraries/architecture/room "Room") Fluent SQLite database access.
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel "ViewModel") Manage UI-related data in a lifecycle-conscious way.
+- [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager/ "WorkManager") Manage every background jobs in Android with the circumstances we choose.
+- And many more....
 
 **3. Behavior Components -**
 
-- [Download Manager](http://https://developer.android.com/reference/android/app/DownloadManager "Download Manager") Schedule and manage large downloads in background with auto retry support.
-- [Media & playback](http://https://developer.android.com/guide/topics/media-apps/media-apps-overview "Media & playback") Backwards compatible APIs for media playback and routing (including Google Cast).
-- [Notifications](http://https://developer.android.com/guide/topics/ui/notifiers/notifications "Notifications") Provides a backwards-compatible notification API with Wear and Auto support.
-- [Permissions](http://https://developer.android.com/guide/topics/permissions/overview "Permissions") Compatibility APIs for checking and requesting permissions in app.
-- [Preferences](http://https://developer.android.com/guide/topics/ui/settings "Preferences") Create interactive settings screens for users to configure.
-- [Sharing](http://https://developer.android.com/training/sharing/shareaction "Sharing") Provides a share action suitable for an app’s action bar.
-- [Slices](http://https://developer.android.com/guide/slices "Slices") Create flexible UI elements that can display app data outside the app and can be extended all the way back to Android 4.4.
+- [Download Manager](https://developer.android.com/reference/android/app/DownloadManager "Download Manager") Schedule and manage large downloads in background with auto retry support.
+- [Media & playback](https://developer.android.com/guide/topics/media-apps/media-apps-overview "Media & playback") Backwards compatible APIs for media playback and routing (including Google Cast).
+- [Notifications](https://developer.android.com/guide/topics/ui/notifiers/notifications "Notifications") Provides a backwards-compatible notification API with Wear and Auto support.
+- [Permissions](https://developer.android.com/guide/topics/permissions/overview "Permissions") Compatibility APIs for checking and requesting permissions in app.
+- [Preferences](https://developer.android.com/guide/topics/ui/settings "Preferences") Create interactive settings screens for users to configure.
+- [Sharing](https://developer.android.com/training/sharing/shareaction "Sharing") Provides a share action suitable for an app’s action bar.
+- [Slices](https://developer.android.com/guide/slices "Slices") Create flexible UI elements that can display app data outside the app and can be extended all the way back to Android 4.4.
+- And many more....
 
 **4. UI Components -**
 
-- [Animation and transitions](http://https://developer.android.com/training/animation/ "Animation and transitions") Move widgets and transition between screens.
-- [Auto](http://https://developer.android.com/auto "Auto") Components to develop Android Auto apps.
-- [Emoji](http://https://developer.android.com/guide/topics/ui/look-and-feel/emoji-compat "Emoji") Enable updated emoji font on older platforms.
-- [Fragment](http://https://developer.android.com/guide/components/fragments "Fragment") A basic unit of composable UI.
-- [Layout](http://https://developer.android.com/guide/topics/ui/declaring-layout "Layout") Lay out widgets with different algorithms.
-- [Palette](http://https://developer.android.com/training/material/palette-colors "Palette") Pull useful information from color palettes.
-- [TV](http://https://developer.android.com/tv/ "TV") Components to develop Android TV apps.
-- [Wear](http://https://developer.android.com/wear/ "Wear") Components to develop Wear apps.
+- [Animation and transitions](https://developer.android.com/training/animation/ "Animation and transitions") Move widgets and transition between screens.
+- [Auto](https://developer.android.com/auto "Auto") Components to develop Android Auto apps.
+- [Emoji](https://developer.android.com/guide/topics/ui/look-and-feel/emoji-compat "Emoji") Enable updated emoji font on older platforms.
+- [Fragment](https://developer.android.com/guide/components/fragments "Fragment") A basic unit of composable UI.
+- [Layout](https://developer.android.com/guide/topics/ui/declaring-layout "Layout") Lay out widgets with different algorithms.
+- [Palette](https://developer.android.com/training/material/palette-colors "Palette") Pull useful information from color palettes.
+- [TV](https://developer.android.com/tv/ "TV") Components to develop Android TV apps.
+- [Wear](https://developer.android.com/wear/ "Wear") Components to develop Wear apps.
+- And many more....
 
