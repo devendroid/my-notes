@@ -52,7 +52,7 @@
 - MVVM [#1](https://premsinghsodha7.medium.com/mvvm-with-clean-architecture-develop-better-android-apps-a6661b9a5079)
 - ConstraintLayout [#1](https://blog.codemagic.io/designing-complex-ui-using-android-constraintlayout) 
 - ViewModel [#1](https://medium.com/@brandonwever/android-mvvm-basics-5c48556e3ecc)
-- Dagger  [#1](https://medium.com/@xiwei/simplest-dagger-example-920bbd10258) | [#2](https://medium.com/android-news/practical-guide-to-dagger-76398948a2ea)
+- Dagger  [#1](https://medium.com/@xiwei/simplest-dagger-example-920bbd10258) | [#2](https://medium.com/android-news/practical-guide-to-dagger-76398948a2ea) | [#3](https://developer.android.com/codelabs/android-dagger#0)
 - Coroutine [#1](https://proandroiddev.com/kotlin-coroutines-and-threading-fundamentals-9fd0130437ae)
 - WorkManager [#1](https://www.raywenderlich.com/20689637-scheduling-tasks-with-android-workmanager) | [#2](https://developer.android.com/topic/libraries/architecture/workmanager)
 - Retrofit CallAdapter Factory to handle api response [#1](https://proandroiddev.com/create-retrofit-calladapter-for-coroutines-to-handle-response-as-states-c102440de37a) 
