@@ -55,6 +55,7 @@
 - Dagger  [#1](https://medium.com/@xiwei/simplest-dagger-example-920bbd10258) | [#2](https://medium.com/android-news/practical-guide-to-dagger-76398948a2ea) | [#3](https://developer.android.com/codelabs/android-dagger#0)
 - Coroutine [#1](https://proandroiddev.com/kotlin-coroutines-and-threading-fundamentals-9fd0130437ae)
 - WorkManager [#1](https://www.raywenderlich.com/20689637-scheduling-tasks-with-android-workmanager) | [#2](https://developer.android.com/topic/libraries/architecture/workmanager)
+- Scoped Functions and Differences  [#1](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply)
 - Retrofit CallAdapter Factory to handle api response [#1](https://proandroiddev.com/create-retrofit-calladapter-for-coroutines-to-handle-response-as-states-c102440de37a) 
 - Jetpack Compose Examples [#1](https://www.jetpackcompose.app/What-is-the-equivalent-of-AlertDialog-in-Jetpack-Compose)
 - API using SpringBoot and Kotlin [#1](https://auth0.com/blog/build-and-secure-an-api-with-spring-boot)
