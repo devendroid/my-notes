@@ -2,11 +2,11 @@
 
 **SOLID** is an acronym (short form) for first five **Object Oriented Design** (OOD) principles by **Robert C Martin**
 
-**S**ingle Responsibility Principale (SRP)
-**O**pen Close Principle (OCP)
-**L**iskov Substitution Principle (LSP)
-**I**nterface Segregation Principle (ISP)
-**D**ependency Inversion Principal (DIP)
+**S**ingle Responsibility Principale (SRP)  
+**O**pen Close Principle (OCP)  
+**L**iskov Substitution Principle (LSP)  
+**I**nterface Segregation Principle (ISP)  
+**D**ependency Inversion Principal (DIP)  
 
 **Single Responsibility Principal**  [Ex1](srp/SingleResponsibilityEx1.java)  
 A class should have one and only one reason to change, means every Java class must perform a single functionality.
