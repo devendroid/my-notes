@@ -22,51 +22,40 @@
 - **Using Repositories** (Overview + Practical)
 - **Using MVVM** (Overview + Practical)
 
-### For Best Practice
-
-* **Networking** - okhttp, Volley, Retrofit
-* **Parsing** - gson, moshi with converter factory of retrofit
-* **Image Loading/Processing** - picaso, fresco, coil
-* **Memory Analysis Tool** - Leak canary
-* **Unit testing** -
-* **Proguard** - 
-* **Zip align** - (On signed build only)
-* **Patterns** - MVP, MVVM, MVI
-* **Use Linting Tool** - Lint, Ktlint
-* **RX Java** - 
-* **.exo file** - (Used by you tube)
-* **DDA/DPP** - 
-* **Dagger/Dagger2** - Dependency Injection 
-* **Android USB and Host Framework** -  
-* **Android RPC Framework** - 
-* **AIDL and Service Framework** - 
-* **Optimizes data container** - 
-* **OpenGL** -
-
 ### Usefull Links:
 
+- Android Main Thread [#1](https://medium.com/@dcostalloyd90/handler-looper-thread-2463b11d3d44)
+- Memory Leaks [#1](https://medium.com/android-news/9-ways-to-avoid-memory-leaks-in-android-b6d81648e35e)
+- MVVM [#1](https://premsinghsodha7.medium.com/mvvm-with-clean-architecture-develop-better-android-apps-a6661b9a5079)
+- Dagger  [#1](https://medium.com/@xiwei/simplest-dagger-example-920bbd10258) | [#2](https://medium.com/android-news/practical-guide-to-dagger-76398948a2ea) | [#3](https://developer.android.com/codelabs/android-dagger#0)
+- Retrofit CallAdapter Factory to handle api response [#1](https://proandroiddev.com/create-retrofit-calladapter-for-coroutines-to-handle-response-as-states-c102440de37a)
+- ConstraintLayout [#1](https://blog.codemagic.io/designing-complex-ui-using-android-constraintlayout) | [#2](https://medium.com/tech-takeaways/android-constraint-layout-about-guidelines-groups-and-barriers-c76149e4e4b1)  
+- ViewModel [#1](https://appdevnotes.com/android-viewmodel-tutorial-for-beginners-in-kotlin/) | [#2](https://medium.com/@brandonwever/android-mvvm-basics-5c48556e3ecc)
+- LiveData [#1](https://appdevnotes.com/android-livedata-tutorial-for-beginners-in-kotlin/) 
+- Coroutine [#1](https://proandroiddev.com/kotlin-coroutines-and-threading-fundamentals-9fd0130437ae)
+- Channel in Coroutine [#1](https://kt.academy/article/cc-channel)
+- RxJava vs Coroutine [#1](https://www.javaadvent.com/2021/12/are-kotlin-coroutines-enough-to-replace-rxjava.html)
+- WorkManager [#1](https://www.raywenderlich.com/20689637-scheduling-tasks-with-android-workmanager) | [#2](https://developer.android.com/topic/libraries/architecture/workmanager)
+- Types of classes in kotlin [#1](https://zetcode.com/kotlin/classes)
+- Sealed classes [#1](https://kotlinlang.org/docs/sealed-classes.html)
+- Data classes [#1](https://kotlinlang.org/docs/data-classes.html)
+- Inline value classes [#1](https://kt.academy/article/ek-value-classes) | [#2](https://quickbirdstudios.com/blog/kotlin-value-classes)
+- List operations in kotlin [#1](https://medium.com/@lucgirardin/in-kotlin-loops-are-deprecated-dae88cd5ae9c)
+- Scoped Functions and Differences [#1](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply) 
+- Scoped Storage [#1](https://medium.com/the-android-caf%C3%A9/scoped-storage-android-all-you-need-to-know-244ec1d00f18)
+- Jetpack Compose Examples [#1](https://www.jetpackcompose.app/What-is-the-equivalent-of-AlertDialog-in-Jetpack-Compose)
+- Unit testing with JUnit [#1](https://medium.com/nerd-for-tech/junit-testing-in-android-with-kotlin-for-beginners-hemcrest-and-mockito-b731a74abaea)
+- Wireless debugging [#1](https://medium.com/native-mobile-bits/debug-your-apps-without-cable-99452daf8755)
+- Time Complexity [#1](https://www.javatpoint.com/time-complexity-of-sorting-algorithms)
+- Android-QA [#1](https://anandharajramasamydev.medium.com/kotlin-android-interview-questions-412332d1106e) | [#2](https://kapilvij.medium.com/kotlin-interview-cheat-sheet-c62e7850ba73) | [#3](https://data-flair.training/blogs/android-interview-questions) | [#4](https://github.com/MindorksOpenSource/android-interview-questions)
+- Java-QA [#1](http://www.crazyforcode.com/java)  
+- App Ideas [#1](https://javascript.plainenglish.io/45-best-app-ideas-for-startups-bonus-ideas-to-make-money-in-2021-5d200a59a6d0)
+- Tech Documentations [#1](https://devdocs.io)
+- Tech Road Map [#1](https://roadmap.sh)
 - Technology Graph [#1](https://cdn.sstatic.net/insights/Img/Survey/2020/tech_network-1.svg?v=e1fb2941ad25)
 - Understand pixles,dp,sp... [#1](https://blog.mindorks.com/understanding-density-independent-pixel-sp-dp-dip-in-android)
 - LiveStreaming [#1](https://www.nginx.com/wp-content/uploads/2018/12/NGINX-Conf-2018-slides_Choi-streaming.pdf)  
 - FFMPEG [#1](https://github.com/SimformSolutionsPvtLtd/SSffmpegVideoOperation)
-- MVVM [#1](https://premsinghsodha7.medium.com/mvvm-with-clean-architecture-develop-better-android-apps-a6661b9a5079)
-- ConstraintLayout [#1](https://blog.codemagic.io/designing-complex-ui-using-android-constraintlayout) 
-- ViewModel [#1](https://medium.com/@brandonwever/android-mvvm-basics-5c48556e3ecc)
-- Dagger  [#1](https://medium.com/@xiwei/simplest-dagger-example-920bbd10258) | [#2](https://medium.com/android-news/practical-guide-to-dagger-76398948a2ea) | [#3](https://developer.android.com/codelabs/android-dagger#0)
-- Coroutine [#1](https://proandroiddev.com/kotlin-coroutines-and-threading-fundamentals-9fd0130437ae)
-- WorkManager [#1](https://www.raywenderlich.com/20689637-scheduling-tasks-with-android-workmanager) | [#2](https://developer.android.com/topic/libraries/architecture/workmanager)
-- Scoped Functions and Differences  [#1](https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply)
-- Retrofit CallAdapter Factory to handle api response [#1](https://proandroiddev.com/create-retrofit-calladapter-for-coroutines-to-handle-response-as-states-c102440de37a) 
-- Jetpack Compose Examples [#1](https://www.jetpackcompose.app/What-is-the-equivalent-of-AlertDialog-in-Jetpack-Compose)
 - API using SpringBoot and Kotlin [#1](https://auth0.com/blog/build-and-secure-an-api-with-spring-boot)
-
-
-### Precaution for memory leak
-
-- **Static Activity** - Use weak references.
-- **Static View** - Set null in onDestroy().
-- **Inner Class** - Don't create static reference in outer class.
-- **Anonymous Class** - Create separate static inner class instead.
-- **Note** - Non static inner class and Anonymous class holds a implicit reference of its outer class.
 
  
