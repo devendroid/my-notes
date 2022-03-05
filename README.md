@@ -1,10 +1,9 @@
 # My Notes
 
+![SOLID](solid/README.md)
 
-![Android Memorable](Android-Memo.md)
+![Android Basics](Android-Memo.md)
 
 ![Android To Do](Android-ToDo.md)
-
-![SOLID](solid/README.md)
 
 ![Useful Tricks](Tricks.md)
