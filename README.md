@@ -1,6 +1,6 @@
 # My Notes
 
-![SOLID](solid/README.md)
+![SOLID Principal & Design Patterns](solid/README.md)
 
 ![Android Basics](Android-Memo.md)
 
