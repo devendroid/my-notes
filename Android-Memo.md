@@ -28,6 +28,18 @@
  - Mostly gradle dependencies uploaded on Maven Repository Centers "jCenter" and "mavenCentral".
  - jCenter - Hosted on bintray.com
  - mavenCentral - Hosted on sonatype.org.(default by android studio).
+
+### Android Activity Launch Mode [video](https://www.youtube.com/watch?v=Yfs4Pd4_5Tw)
+Launch mode is an instruction for Android OS which specifies how the activity should be launched. It instructs how any new activity should be associated with the current task,<br>
+There are four launch modes for activity. They are:  
+1. standard (Default)<br>
+2. singleTop<br>
+3. singleTask<br>
+4. singleInstance<br>  
+**1. standard -** It creates a new instance of an activity in the task from which it was started. Multiple instances of the activity can be created and multiple instances can be added to the same or different tasks.  
+**2. singleTop -** In this launch mode if an instance of activity already exists at the top of the current task, a new instance will not be created and Android system will route the intent information through onNewIntent(). If an instance is not present on top of task then new instance will be created.  
+**3. singleTask -** In this launch mode if an instance of activity already exists in the current task, a new instance will not be created and Android system will route the intent information through onNewIntent(). If an instance is not present in task then new instance will be created.  
+**4. singleInstance -** Every new activity instance will create in a new seperate task, If an instance is already exist in a any task then a new instance will not be created and Android system will route the intent information through onNewIntent().  
  
  ### Fragment
  #### &nbsp;&nbsp;&nbsp;&nbsp;Why we should use?
