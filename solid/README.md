@@ -23,3 +23,36 @@ means service provider/interface should not force the client/class to use the se
 
 **Dependency Inversion Principal**  [Ex1](dip/DependencyInversionEx1.java)  
 We must use abstraction (abstract class and interface) instead of concrete class, High-level module should not depends on low-level module but both should depends on abstraction.
+
+# Design Patterns
+
+Design patterns are reusable solutions to the most commonly occurring software problems. They can speed up the development process by providing a proven way of resolving frequent issues.
+
+**1. Creational Design Patterns**
+   - Singleton Pattern
+   - Factory Pattern
+   - Abstract Factory Pattern
+   - Builder Pattern
+   - Prototype Pattern
+   
+**2. Structural Design Patterns**
+   - Adapter Pattern
+   - Composite Pattern
+   - Proxy Pattern
+   - Flyweight Pattern
+   - Facade Pattern
+   - Bridge Pattern
+   - Decorator Pattern
+   
+**3. Behavioral Design Patterns**
+   - Template Method Pattern
+   - Mediator Pattern
+   - Chain of Responsibility Pattern
+   - Observer Pattern
+   - Strategy Pattern
+   - Command Pattern
+   - State Pattern
+   - Visitor Pattern
+   - Interpreter Pattern
+   - Iterator Pattern
+   - Memento Pattern
