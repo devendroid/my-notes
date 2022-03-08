@@ -29,7 +29,7 @@
  - jCenter - Hosted on bintray.com
  - mavenCentral - Hosted on sonatype.org.(default by android studio).
 
-### Android Activity Launch Mode [video](https://www.youtube.com/watch?v=Yfs4Pd4_5Tw)
+### Activity Launch Mode [video](https://www.youtube.com/watch?v=Yfs4Pd4_5Tw)
 Launch mode is an instruction for Android OS which specifies how the activity should be launched. It instructs how any new activity should be associated with the current task,<br>
 There are four launch modes for activity. They are:  
 1. standard (Default)<br>
@@ -41,29 +41,85 @@ There are four launch modes for activity. They are:
 **3. singleTask -** In this launch mode if an instance of activity already exists in the current task, a new instance will not be created and Android system will route the intent information through onNewIntent(). If an instance is not present in task then new instance will be created.  
 **4. singleInstance -** Every new activity instance will create in a new seperate task, If an instance is already exist in a any task then a new instance will not be created and Android system will route the intent information through onNewIntent().  
  
- ### Fragment
- #### &nbsp;&nbsp;&nbsp;&nbsp;Why we should use?
- - **Reusability** - One Fragment can use by multiple Activities.
- - **Flexibility** - One Activity can use multiple Fragments.
- - **Dynamically Handling** - Add/Replace/Remove dynamically while Activity is running.
- #### &nbsp;&nbsp;&nbsp;&nbsp;Lifecycle
+### Activity Lifecycle [video](https://www.youtube.com/watch?v=crhwDDK9waA)
+```diff
+@@  When go from ActivityA to ActivityB  @@
+-ActivityA : onCreate()
+-ActivityA : onStart()
+-ActivityA : onResume()
+#---------------------------[ Start ActivityB ]
+-ActivityA : onPause()
++ActivityB : onCreate()
++ActivityB : onStart()
++ActivityB : onResume()
+-ActivityA : onStop()
+#---------------------------[ Back from ActivityB ]
++ActivityB : onPause()
+-ActivityA : onRestart()
+-ActivityA : onStart()
+-ActivityA : onResume()
++ActivityB : onStop()
++ActivityB : onDestroy()
+#----------------------------[ Back from ActivityA ]
+-ActivityA : onPause()
+-ActivityA : onStop()
+-ActivityA : onDestroy()
+```
  
-1. onAttach()
-2. onCreate() ***--> Can restore data***
-3. onCreateView()
-4. onViewCrated()
-5. onActivityCreated() ***--> Can restore data***
-6. onStart()
-7. onResume() ---> ideal condition <br><br>
-   - On replace/add next Fragment these 7 methods would be repeat for next Fragment.<br>
-   - And this below 2 methods would be call on this Fragment. <br><br> 
-8. onPause()    
-9. onStop() <br><br>
-   - If remove this Fragment below methods would be call on this Fragment.<br><br> 
-10. onDestroyView()   
-    ***onSaveInstanceState() --> Can call any time before onDestroy.***
-11. onDestroy()   
-12. onDetach()   
+### Fragment Lifecycle
+
+```diff
+@@  When go to FragmentB using replace  @@
+-FragmentA : onAttach()                       
+-FragmentA : onCreate()
+-FragmentA : onCreateView()
+-FragmentA : onViewCreated()
+-FragmentA : onStart()
+-FragmentA : onResume()
+#---------------------------[ Replace with FragmentB ]
+-FragmentA : onPause()
+-FragmentA : onStop()
++FragmentB : onAttach()
++FragmentB : onCreate()
++FragmentB : onCreateView()
++FragmentB : onViewCreated()
++FragmentB : onStart()
+-FragmentA : onDestroyView()
++FragmentB : onResume()
+#----------------------------[ Back from FragmentB ]
++FragmentB : onPause()
++FragmentB : onStop()
+-FragmentA : onCreateView()
+-FragmentA : onViewCreated()
+-FragmentA : onStart()
++FragmentB : onDestroyView()
++FragmentB : onDestroy()
++FragmentB : onDetach()
+-FragmentA : onResume()
+```
+
+```diff
+@@  When go to FragmentB using add  @@
+-FragmentA : onAttach()
+-FragmentA : onCreate()
+-FragmentA : onCreateView()
+-FragmentA : onViewCreated()
+-FragmentA : onStart()
+-FragmentA : onResume()
+#-----------------------------[ Add FragmentB ]
++FragmentB : onAttach()
++FragmentB : onCreate()
++FragmentB : onCreateView()
++FragmentB : onViewCreated()
++FragmentB : onStart()
++FragmentB : onResume()
+#-----------------------------[ Back from FragmentB ]
++FragmentB : onPause()
++FragmentB : onStop()
++FragmentB : onDestroyView()
++FragmentB : onDestroy()
++FragmentB : onDetach()
+```
    
 ### Background Task Evolution  
 
