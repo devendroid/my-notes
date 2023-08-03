@@ -1,9 +1,11 @@
 # My Notes
 
-![SOLID Principal & Design Patterns](solid/README.md)
+- [SOLID Principal & Design Patterns](solid/README.md)
 
-![Android Basics](Android-Memo.md)
+- [Android Basics](Android-Memo.md)
 
-![Android To Do](Android-ToDo.md)
+- [Android To Do](Android-ToDo.md)
 
-![Useful Tricks](Tricks.md)
+- [Flutter To Do](Flutter-ToDo.md)
+
+- [Useful Tricks & Topics](Tricks.md)
