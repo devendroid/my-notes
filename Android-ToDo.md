@@ -57,7 +57,13 @@
 - Auto increment Versions [#1](https://medium.com/prathanbomb/tips-auto-increment-versioncode-of-android-using-gradle-dba0425af97c) | [#2](https://stackoverflow.com/a/28586131/1427776)
 - Android-QA [#1](https://anandharajramasamydev.medium.com/kotlin-android-interview-questions-412332d1106e) | [#2](https://kapilvij.medium.com/kotlin-interview-cheat-sheet-c62e7850ba73) | [#3](https://data-flair.training/blogs/android-interview-questions) | [#4](https://github.com/MindorksOpenSource/android-interview-questions) | [#5](https://github.com/vamsitallapudi/Android-Interview-Questions-And-Answers) | [#6](https://piashcse.medium.com/kotlin-android-interview-questions-c2870272a469) | [#7](https://medium.com/@veda2wratha/android-interview-accenture-b9a55289bc1) | [#8](https://androidchef.com/kotlin-interview-questions-15755f899199)
 
+### Flutter
+- Flutter Design Paterns [#1](https://flutterdesignpatterns.com)
+- Flutter + BLoc [#1](https://github.com/felangel/bloc/tree/master/examples/flutter_todos)
+- Communication bw Flutter & Wevview [#1](https://www.freecodecamp.org/news/how-to-build-a-native-communication-bridge-in-flutter-with-webview-and-javascript)
+- Dart/Flutter Tricks [#1](https://github.com/vandadnp/flutter-tips-and-tricks)
 
+### Others
 - Time Complexity [#1](https://www.javatpoint.com/time-complexity-of-sorting-algorithms)
 - Java-QA [#1](http://www.crazyforcode.com/java)  
 - App Ideas [#1](https://javascript.plainenglish.io/45-best-app-ideas-for-startups-bonus-ideas-to-make-money-in-2021-5d200a59a6d0)
