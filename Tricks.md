@@ -12,6 +12,27 @@
   
   Prefix this hexa to our white color like   #CCFFFFFF  
 
+### Downscale image with maintaining its ratio
+
+```kotlin
+fun downScaleImage(imageW: Float, imageH: Float) {
+    val MAX_SIZE: Float = 800f
+    var actualW = imageW
+    var actualH = imageH
+    
+    if(actualH > MAX_SIZE || actualW > MAX_SIZE) {
+        var ratio: Float = min(MAX_SIZE/actualW, MAX_SIZE/actualH)
+        actualW = actualW * ratio
+        actualH = actualH * ratio
+    }
+ 
+    println("New w:$actualW h:$actualH")
+    // Then perform like
+    // Bitmap resized = Bitmap.createScaledBitmap(yourBitmap, actualW, actualH, true);
+}
+```
+  
+
   # Topics
 
 - Time Complexity [#1](https://www.javatpoint.com/time-complexity-of-sorting-algorithms)
