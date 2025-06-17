@@ -385,7 +385,7 @@ One thing you need to know is that Flutter doesn’t “translate” the UI to n
 
 ### Flutter App Architecture: [\#1](https://docs.flutter.dev/resources/architectural-overview)
 
-**![][image2]**
+![](assets/flutter-arc.png)
 
 **Key points to consider about architecture:**
 
@@ -462,7 +462,7 @@ Flutter uses a Layer tree to optimize rendering. Layers reduce unnecessary redra
 **5\. Rastering by GPU**  
 Finally, the composited layers are handed off to the GPU, which rasterizes them (turns vector instructions into pixels) and displays them on the screen.
 
-![][image3]
+![](assets/render-pipeline.png)
 
 [Image Source](https://geekyants.com/_next/image?url=https%3A%2F%2Fstatic-cdn.geekyants.com%2Farticleblogcomponent%2F13127%2F2022-10-19%2F162281925-1666165877.jpg&w=1920&q=75)
 
@@ -507,21 +507,21 @@ When we run this code behind the scene what will do the Flutter Framework:
 ### Routing [\#1](https://www.youtube.com/watch?v=laqnY0NjU3M)
 
 In flutter there three option are available for Routing:  
-![][image4]
+![](assets/routing.png)
 
 **1\. Anonymous Routing:** Routing without route name
 
 ![][image5]
 
 **2\. Named Routing**  
-**![][image6]**
+![][image6]
 
 **3\. Generated Routing**  
 ![][image7]
 
 ### **What is Key?**
 
-![][keys_image]
+![](assets/key.png)
 
 - **Key\*** is an abstract class but can be instantiated because it has a factory constructor.
 - **LocalKey** is abstract class cant be instantiated.
@@ -572,31 +572,31 @@ BLoC stands for **Business Logic Component**, a pattern used in Flutter to manag
 - Cubit uses function to listen user actions while Bloc uses event
 - Cubit functions are not a stream, while Bloc events are stream
 
-![][image8]
+![](assets/bloc-cubit.png)
 
 ***Use of Equability Class:-***
 
 **PROBLEM**: Two instances of the same class are not equal even having the same value, because both are stored in different memory locations.  
-![][image9]
+![](assets/equability.png)
 
 **SOLUTION:-** But we can override this behaviour easily by very popular library Equatable developed by flutter dev community.
 
 **USE:-** When we write test cases for Bloc or whenever we are required to check if the state is the same or not.
 
 ***Best Practice about to instantiate a Cubit/Bloc:***   
-![][image10]
+![](assets/bloc-tips.png)
 
 ***Cubit/Bloc Problem discussions:*** [\#1](https://github.com/felangel/bloc/issues/1819)  [\#2](https://github.com/felangel/bloc/pull/2859#issuecomment-1004018783)
 
 ### Using Serialization/Deserialization
 
 - **Object to Json  (Serialisation)**  
-  1\. Object \-\> Map  (Using manual)  
-  2\. Map \-\> Json String  (Using json.encode(-))
+  1. Object -> Map  (Using manual)  
+  2. Map -> Json String  (Using json.encode(-))
 
 - **Json to Object  (Deserialisation)**  
-  1\. Json \-\> Map (Using json.decode(-))  
-  2\. Map \-\> Object (Using manual)
+  1. Json -> Map (Using json.decode(-))  
+  2. Map -> Object (Using manual)
 
 ![][image11]
 
@@ -612,12 +612,12 @@ In Dart, there are two types of streams:
 2. **Broadcast Streams**  
    Broadcast Streams allow multiple listeners to subscribe to the same stream. This is useful when you want to broadcast events to multiple parts of your application simultaneously.
 
-### Isolate [\#1](https://blog.codemagic.io/understanding-flutter-isolates/)
+### Isolate [#1](https://blog.codemagic.io/understanding-flutter-isolates/)
 
 Isolates are a Dart concurrency model that allows for running code in parallel. They are independent of each other and communicate through message passing. Isolates are useful for performing expensive computations, I/O-bound tasks, and background processing.
 
 **Limitation:**  
-\- Isolates in Flutter do not share memory. Communication between them is organized by passing messages. This leads to the following issue: limit on the size of transmitted data. It is costly and in some cases impossible to send large amount of data from the isolate to the main thread.  
+- Isolates in Flutter do not share memory. Communication between them is organized by passing messages. This leads to the following issue: limit on the size of transmitted data. It is costly and in some cases impossible to send large amount of data from the isolate to the main thread.  
 Thus, it is best to use isolates for resource-intensive operations that return small amount of data.
 
 ### MultiTheme Setup
@@ -693,8 +693,6 @@ class LocalizationNotifier extends ChangeNotifier {
    }
 }
 ```
-
-
 
 ### Offline first Architectures [\#1](https://docs.flutter.dev/app-architecture/design-patterns/offline-first)
 
