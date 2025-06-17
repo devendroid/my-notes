@@ -510,14 +510,52 @@ In flutter there three option are available for Routing:
 ![](assets/routing.png)
 
 **1\. Anonymous Routing:** Routing without route name
-
-![][image5]
+```dart
+Navigator.push(
+   context,
+   MaterialPageRoute(builder: (context) => SecondScreen()),
+);
+```
 
 **2\. Named Routing**  
-![][image6]
+```dart
+class MyApplication extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      routes: {
+        '/': (context) => HomePage(),
+        '/SecondScreen': (context) => SecondScreen(),
+      },
+    );
+  }
+}
+```
 
 **3\. Generated Routing**  
-![][image7]
+```dart
+class MyApplication extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      onGenerateRoute: AppRouter().onGenerateRoutes,
+    );
+  }
+}
+
+class AppRouter {
+  Route? onGenerateRoutes(RouteSettings routeSettings) {
+    switch (routeSettings.name) {
+      case '/':
+        return MaterialPageRoute(builder: (context) => HomePage());
+      case '/SecondScreen':
+        return MaterialPageRoute(builder: (context) => SecondScreen());
+      default:
+        return null;
+    }
+  }
+}
+```
 
 ### **What is Key?**
 
@@ -598,7 +636,36 @@ BLoC stands for **Business Logic Component**, a pattern used in Flutter to manag
   1. Json -> Map (Using json.decode(-))  
   2. Map -> Object (Using manual)
 
-![][image11]
+```dart
+import 'dart:convert';
+
+class User {
+  String name;
+  int age;
+
+  User(this.name, this.age);
+
+  // Step 1: Convert to Map
+  Map<String, dynamic> toMap() {
+    return {"name": name, "age": age};
+  }
+
+  // Step 2: Convert to JSON string
+  String toJson() {
+    return json.encode(toMap());
+  }
+
+  // Step 1: Create from Map
+  factory User.fromMap(Map<String, dynamic> map) {
+    return User(map["name"], map["age"]);
+  }
+
+  // Step 2: Create from JSON string
+  factory User.fromJson(String jsonStr) {
+    return User.fromMap(json.decode(jsonStr));
+  }
+}
+```
 
 ### Future, async & await
 
