@@ -9,7 +9,7 @@ So, when this thread is created, Dart automatically:-
 2\. Executes the **main()** method and, once this code execution is completed  
 3\. Launches the **Event Loop**.
 
-![][image1]
+![](assets/event_queue.png)
 
 **Event Loop**  
 During the whole life of the thread, a single internal and invisible process called the "Event Loop", will drive the way your code will be executed and in which sequence order, depending on the content of both MicroTask and Event Queues.
