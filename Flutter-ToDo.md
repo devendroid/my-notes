@@ -858,8 +858,8 @@ SonarQube is an open-source, self-managed, automatic code review tool that helps
 
 Steps to setup on machine:
 
-      1\.   Install java  
-      2\.   Installation of SonarQube/Sonar-Scanner
+      1.   Install java  
+      2.   Installation of SonarQube/Sonar-Scanner
 
 3. Install Docker
 4. Start SonarQube
@@ -871,20 +871,20 @@ Steps to setup on machine:
 10. View SonarQube scan results
 
 ### Important Topics/Concepts
-[**Flutter Release Notes**](https://docs.flutter.dev/release/release-notes)
-[**Write your service locator**](https://medium.com/@yurinovicow/flutter-write-service-locator-in-15-lines-of-code-9b7bc5b8ae5c)
-[**CleanArc \+ BLoC \+ DI**](https://blog.stackademic.com/flutter-clean-architecture-with-bloc-and-dependency-injection-in-detail-9424c9b3fa8b)
-[**Flutter Design Paterns**](https://flutterdesignpatterns.com)
-[**Flutter + BLoc**](https://github.com/felangel/bloc/tree/master/examples/flutter_todos)
-[**Communication bw Flutter & Wevview**](https://www.freecodecamp.org/news/how-to-build-a-native-communication-bridge-in-flutter-with-webview-and-javascript)
+[**Flutter Release Notes**](https://docs.flutter.dev/release/release-notes)  
+[**Write your service locator**](https://medium.com/@yurinovicow/flutter-write-service-locator-in-15-lines-of-code-9b7bc5b8ae5c)  
+[**CleanArc \+ BLoC \+ DI**](https://blog.stackademic.com/flutter-clean-architecture-with-bloc-and-dependency-injection-in-detail-9424c9b3fa8b)  
+[**Flutter Design Paterns**](https://flutterdesignpatterns.com)  
+[**Flutter + BLoc**](https://github.com/felangel/bloc/tree/master/examples/flutter_todos)  
+[**Communication bw Flutter & Wevview**](https://www.freecodecamp.org/news/how-to-build-a-native-communication-bridge-in-flutter-with-webview-and-javascript)  
 [**Dart/Flutter Tricks**](https://github.com/vandadnp/flutter-tips-and-tricks)
 
 ### Interview QA
-[https://docs.flutter.dev/resources/faq](https://docs.flutter.dev/resources/faq)
-[https://medium.com/@ahsan-001/flutter-advanced-interview-questions-a-detailed-guide-with-coding-examples-f78900977c09](https://medium.com/@ahsan-001/flutter-advanced-interview-questions-a-detailed-guide-with-coding-examples-f78900977c09)
-[https://medium.com/@artur.fijal.koalasoft/real-flutter-interview-questions-d522f77cbd87](https://medium.com/@artur.fijal.koalasoft/real-flutter-interview-questions-d522f77cbd87)
-[https://medium.com/whitecodel/flutter-interview-questions-2024-part-4-c6d9123b5edc](https://medium.com/whitecodel/flutter-interview-questions-2024-part-4-c6d9123b5edc)
-[https://medium.com/@arunb9525/advanced-flutter-interview-questions-798dae5013fc](https://medium.com/@arunb9525/advanced-flutter-interview-questions-798dae5013fc)
+[https://docs.flutter.dev/resources/faq](https://docs.flutter.dev/resources/faq)  
+[https://medium.com/@ahsan-001/flutter-advanced-interview-questions-a-detailed-guide-with-coding-examples-f78900977c09](https://medium.com/@ahsan-001/flutter-advanced-interview-questions-a-detailed-guide-with-coding-examples-f78900977c09)  
+[https://medium.com/@artur.fijal.koalasoft/real-flutter-interview-questions-d522f77cbd87](https://medium.com/@artur.fijal.koalasoft/real-flutter-interview-questions-d522f77cbd87)  
+[https://medium.com/whitecodel/flutter-interview-questions-2024-part-4-c6d9123b5edc](https://medium.com/whitecodel/flutter-interview-questions-2024-part-4-c6d9123b5edc)  
+[https://medium.com/@arunb9525/advanced-flutter-interview-questions-798dae5013fc](https://medium.com/@arunb9525/advanced-flutter-interview-questions-798dae5013fc)  
 [https://github.com/debasmitasarkar/flutter_interview_topics](https://github.com/debasmitasarkar/flutter_interview_topics)
 
 Thanks :)
