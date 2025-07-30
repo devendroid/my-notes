@@ -94,9 +94,9 @@ obj.length;
 ```
 
 **Access Modifiers**  
-In Dart privacy is at library level rather than Class level,
-***Private***: We can make private using underscore prefix (\_)  eg- `String _name = “deven”;`
-***Public***: By default everything in dart is public
+In Dart privacy is at library level rather than Class level,  
+***Private***: We can make private using underscore prefix (\_)  eg- `String _name = “deven”;`  
+***Public***: By default everything in dart is public  
 ***Protected***: Not supported in dart
 
 ### Collection literals
@@ -395,7 +395,7 @@ One thing you need to know is that Flutter doesn’t “translate” the UI to n
 
 3. **Embedder:** This component allows Flutter applications to run on various platforms by providing an entry point and access to native APIs. It's platform-specific and integrates the Flutter engine into the target operating system.
 
-###*What technology is Flutter built with?**  
+**What technology is Flutter built with?**  
 Flutter is built with C, C++, Dart, Skia (a 2D rendering engine), and [Impeller](https://docs.flutter.dev/perf/impeller) (the default rendering engine on iOS). See this [architecture diagram](https://docs.google.com/presentation/d/1cw7A4HbvM_Abv320rVgPVGiUP2msVs7tfGbkgdrTy0I/edit#slide=id.gbb3c3233b_0_162) for a better picture of the main components. For a more detailed description of the layered architecture of Flutter, read the [architectural overview](https://docs.flutter.dev/resources/architectural-overview).
 
 **How are Flutter Apps Compiled?**   
@@ -404,22 +404,22 @@ Just-In-Time (JIT) : During development to support hot reload.
 Ahead-Of-Time (AOT) : When we run in release mode.
 
 ### Hot Reload vs Hot Restart  
-**Hot reload** works by injecting updated source code files into the running Dart VM (Virtual Machine). This doesn't only add new classes, but also adds methods and fields to existing classes, and changes existing functions. 
+**Hot reload** works by injecting updated source code files into the running Dart VM (Virtual Machine). This doesn't only add new classes, but also adds methods and fields to existing classes, and changes existing functions.  
 **Hot restart** resets the state to the app's initial state.
 
 ### Widget Lifecycle [\#1](https://medium.com/@iniwillie10/mastering-the-different-types-of-state-dependence-functions-in-flutter-31f913e94cee)
 
-**createState()** : creates the state object for the widget.
-**initState()** : called after the state object is created. It is used to initialise the state of the widget
-**didChangeDependencies()** : This method is called immediately after *initState* and called whenever a widget’s dependencies change. A widget’s dependencies are other objects on which the widget relies, such as inherited widgets or other stateful widgets.
+**createState()** : creates the state object for the widget.  
+**initState()** : called after the state object is created. It is used to initialise the state of the widget  
+**didChangeDependencies()** : This method is called immediately after *initState* and called whenever a widget’s dependencies change. A widget’s dependencies are other objects on which the widget relies, such as inherited widgets or other stateful widgets.  
 **build()** : It is used to build the widget tree. This gets called each time the widget is rebuilt, and it happens:  
 \- after initState,   
 \- didChangeDependencies,   
 \- didUpdateWidget,   
-\- or when the state is changed via a call to setState
-**didUpdateWidget()** : This method is called when the widget is updated with new properties. A typical case is when a parent passes some variable to the children() widget via the constructor.
+\- or when the state is changed via a call to setState  
+**didUpdateWidget()** : This method is called when the widget is updated with new properties. A typical case is when a parent passes some variable to the children() widget via the constructor.  
 **setState()**  
-**deactivate()** : This method is invoked when State is removed from subtree A and reinserted to subtree B with the use of a GlobalKey.
+**deactivate()** : This method is invoked when State is removed from subtree A and reinserted to subtree B with the use of a GlobalKey.  
 **dispose()** : This method is called when the widget is about to be destroyed permanently. It is used to release any resources used by the widget like closing network connections or stopping animations.
 
 ### App Lifecycle States (WidgetsBindingObserver)
@@ -568,15 +568,15 @@ class AppRouter {
 - LabeledGlobalKey is concrete classes
 
 **Key**   
-In Flutter, keys are unique identifiers that are attached to widgets. They help Flutter distinguish between different widgets and track changes efficiently when the UI rebuilds. Think of them as fingerprints for widgets — they ensure each widget is recognized and considered as an individual.
+In Flutter, keys are unique identifiers that are attached to widgets. They help Flutter distinguish between different widgets and track changes efficiently when the UI rebuilds. Think of them as fingerprints for widgets — they ensure each widget is recognized and considered as an individual.  
 **LocalKey**  
-It’s used to identify widgets within the same parent widget. Local keys cannot be used to identify widgets outside of their parent.
+It’s used to identify widgets within the same parent widget. Local keys cannot be used to identify widgets outside of their parent.  
 **ValueKey**  
-The ValueKey is a straightforward key type that stores a simple alphanumeric value. It’s handy when you need to identify a widget based on a specific value. For example, you can use a ValueKey to differentiate between items in a list.
+The ValueKey is a straightforward key type that stores a simple alphanumeric value. It’s handy when you need to identify a widget based on a specific value. For example, you can use a ValueKey to differentiate between items in a list.  
 **ObjectKey**  
-When you want to identify a widget based on an object, the ObjectKey comes to the rescue. It stores an object and uses it as a unique identifier. This is useful when you’re dealing with complex data structures.
+When you want to identify a widget based on an object, the ObjectKey comes to the rescue. It stores an object and uses it as a unique identifier. This is useful when you’re dealing with complex data structures.  
 **UniqueKey**  
-As the name suggests, the UniqueKey generates a unique identifier for each widget. This key type ensures that no two widgets share the same key, making it ideal for scenarios where absolute uniqueness is required.
+As the name suggests, the UniqueKey generates a unique identifier for each widget. This key type ensures that no two widgets share the same key, making it ideal for scenarios where absolute uniqueness is required.  
 **GlobalKey**  
 It can identify widgets from anywhere in the widget tree.
 
@@ -594,15 +594,14 @@ It can identify widgets from anywhere in the widget tree.
 
 BLoC stands for **Business Logic Component**, a pattern used in Flutter to manage the app's state. It's designed to separate the app's business logic from its user interface (UI).
 
-***Key features:-***
-**Separation of Concerns**: BLoC keeps your business logic separate from your UI code, making your app easier to understand and maintain.
-**Testability**: Since the business logic is separate, it's easier to test.
-**Reusability**: You can use the same business logic in different app parts without changing the UI.
+***Key features:-***  
+**Separation of Concerns**: BLoC keeps your business logic separate from your UI code, making your app easier to understand and maintain.  
+**Testability**: Since the business logic is separate, it's easier to test.  
+**Reusability**: You can use the same business logic in different app parts without changing the UI.  
 
-***Some challenges:-***
-
-**Learning Curve**: Understanding how to use streams and sinks can take time, especially for beginners.
-**Boilerplate**: BLoC can require a lot of extra code, which might be overwhelming for simple apps.
+***Some challenges:-***  
+**Learning Curve**: Understanding how to use streams and sinks can take time, especially for beginners.  
+**Boilerplate**: BLoC can require a lot of extra code, which might be overwhelming for simple apps.  
 
 ***Cubit vs Bloc:-***
 - Cubit is a minimum version of Bloc
@@ -617,9 +616,9 @@ BLoC stands for **Business Logic Component**, a pattern used in Flutter to manag
 **PROBLEM**: Two instances of the same class are not equal even having the same value, because both are stored in different memory locations.  
 ![](assets/equability.png)
 
-**SOLUTION:-** But we can override this behaviour easily by very popular library Equatable developed by flutter dev community.
+**SOLUTION:-** But we can override this behaviour easily by very popular library Equatable developed by flutter dev community.  
 
-**USE:-** When we write test cases for Bloc or whenever we are required to check if the state is the same or not.
+**USE:-** When we write test cases for Bloc or whenever we are required to check if the state is the same or not.  
 
 ***Best Practice about to instantiate a Cubit/Bloc:***   
 ![](assets/bloc-tips.png)
@@ -778,8 +777,8 @@ class LocalizationNotifier extends ChangeNotifier {
 
 ### DeepLink:  [\#1](https://medium.com/codeinflutter/flutter-deep-link-app-link-implementation-a-comprehensive-guide-for-2024-fb1418d998d1)
 
-**DeepLink-**  Deep links are links that not only open an app, but also take the user to a specific location "deep" inside the app.
-**AppLink-** An *app link* is a type of deep link that uses `http` or `https` and is exclusive to Android devices. To set up app links, you need to own a web domain.
+**DeepLink-**  Deep links are links that not only open an app, but also take the user to a specific location "deep" inside the app.  
+**AppLink-** An *app link* is a type of deep link that uses `http` or `https` and is exclusive to Android devices. To set up app links, you need to own a web domain.  
 **UniversalLink-** A *universal link*, a type of deep link exclusive to iOS devices, uses only the `http` or `https` protocols. To set up universal links, you need to own a web domain.
 
 ### Dependency Injection  [\#1](https://www.youtube.com/watch?v=izPV3C0hdoI)  
@@ -829,7 +828,7 @@ Automated testing falls into a few categories:
 - The Finder classes allow searching for widgets in the test environment.
 - Widget-specific Matcher constants help verify whether a Finder locates a widget or multiple widgets in the test environment.
 
-- An **integration test** tests a complete app or a large part of an app.  **\[integration\_test\]**
+-- An **integration test** tests a complete app or a large part of an app.  **\[integration\_test\]**
 
 **Unit tests** and **widget tests** validate individual classes, functions, or widgets. They don't validate how individual pieces work together in whole or capture the performance of an app running on a real device. To perform these tasks, use **integration tests**. Integration tests verify the behaviour of the complete app. This test can also be called **end-to-end testing or GUI testing**.  **host machine:** The system on which you develop your app, like a desktop computer.
 
@@ -837,18 +836,18 @@ Automated testing falls into a few categories:
 If you run your app in a web browser or as a desktop application, the host machine and the target device are the same.
 
 ### Responsive UI  [\#1](https://medium.com/@kamrani062/responsiveness-in-flutter-ui-crafting-screens-for-all-devices-a264c3f435ec)
-The key components that help to create responsive UI:
+The key components that help to create responsive UI:  
 **1\) Use Layout Widgets:**   
-Flutter provides layout widgets like Row, Column, and Container that can automatically adapt to screen sizes.
+Flutter provides layout widgets like Row, Column, and Container that can automatically adapt to screen sizes.  
 **2\) MediaQuery:**  
 Flutter’s MediaQuery class allows you to retrieve information about the screen, such as dimensions and orientation. You can use this information to make decisions about how your UI should adapt.
 ```dart
 final double screenHeight = MediaQuery.of(context).size.height;  
 final double screenWidth = MediaQuery.of(context).size.width;  
 final Orientation orientation = MediaQuery.of(context).orientation;
-```
+```  
 **3\) Flexible, Expanded & Wrap Widgets:**  
-Widgets like Flexible and Expanded allow children widgets to grow and shrink based on available space.
+Widgets like Flexible and Expanded allow children widgets to grow and shrink based on available space.  
 **4\) Orientation Detection:**  
 Use the OrientationBuilder widget to detect changes in screen orientation and adjust your UI accordingly. You can adapt your UI based on screen orientation.
 ```dart
@@ -858,34 +857,34 @@ return orientation \== Orientation.portrait
 ? Text('Portrait Mode')  
 : Text('Landscape Mode');  
 }, )
-```
+```  
 **5\) Use Aspect Ratios:**  
 The AspectRatio widget helps maintain the aspect ratio of a widget, ensuring that images or videos don't stretch or distort on different screens.  
-The AspectRatio widget maintains the aspect ratio of its child.
+The AspectRatio widget maintains the aspect ratio of its child.  
 
 ### Optimization Tips [\#1](https://www.youtube.com/watch?v=8oIsZEhnqtA)
 
-**1\. Use const constructor:** It tells Flutter Framework the Widget and its childrens are immutable, that prevent unnecessary rebuilding and improve performance.
-**2\. Prevent Rebuilding of widgets:** Use final to create a widget instance, it ensures the widget instance will create once and then reuse for every build.
-**3\. SizedBox than Container:** Use SizedBox than Container if you need only sizing to your widget; it's lightweight and less overhead.
-**4\. Minimize Widget tree depth:** Don't write a long widget tree to create ui, instead create multiple small widgets and then compose them.
-**5\. StatelessWidget widget instead of function:** Use StatelessWidget to create custom widgets instead of returned by a function;
-**6\. ListView:** Use ListView.builder than ListView if you have elements thats require a scroll.
-**7**\. Minimize import, don't import the whole library, import only the required classes.
+**1\. Use const constructor:** It tells Flutter Framework the Widget and its childrens are immutable, that prevent unnecessary rebuilding and improve performance.  
+**2\. Prevent Rebuilding of widgets:** Use final to create a widget instance, it ensures the widget instance will create once and then reuse for every build.  
+**3\. SizedBox than Container:** Use SizedBox than Container if you need only sizing to your widget; it's lightweight and less overhead.  
+**4\. Minimize Widget tree depth:** Don't write a long widget tree to create ui, instead create multiple small widgets and then compose them.  
+**5\. StatelessWidget widget instead of function:** Use StatelessWidget to create custom widgets instead of returned by a function;  
+**6\. ListView:** Use ListView.builder than ListView if you have elements thats require a scroll.  
+**7**\. Minimize import, don't import the whole library, import only the required classes.  
 **8**\. **Network Optimization**
 - RESTful APIs: Use paginated API responses to fetch small chunks of data.
 - GraphQL: Fetch only the required fields instead of the entire dataset.
 - Compression: Enable Gzip compression on the server to reduce data size.
 - Caching: Implement caching to minimize repeated network calls.
 
-**9**\. Use widget lifecycle method for efficient resource management and prevent memory leaks.
-**10**\. Widget tree shacking [\#1](https://medium.com/@samra.sajjad0001/flutter-tree-shaking-optimizing-your-app-for-performance-9a2d82b43eb1)
-**11**\. Web App Optimize  [\#1](https://medium.com/flutter/best-practices-for-optimizing-flutter-web-loading-speed-7cc0df14ce5c)
-**12\. Tree Shaking:-**  Tree shaking is an optimization technique in Flutter that removes unused code from an app's bundle to make it smaller and more efficient. This improves the app's performance and load times.
+**9**\. Use widget lifecycle method for efficient resource management and prevent memory leaks.  
+**10**\. Widget tree shacking [\#1](https://medium.com/@samra.sajjad0001/flutter-tree-shaking-optimizing-your-app-for-performance-9a2d82b43eb1)  
+**11**\. Web App Optimize  [\#1](https://medium.com/flutter/best-practices-for-optimizing-flutter-web-loading-speed-7cc0df14ce5c)  
+**12\. Tree Shaking:-**  Tree shaking is an optimization technique in Flutter that removes unused code from an app's bundle to make it smaller and more efficient. This improves the app's performance and load times.  
 Here's how tree shaking works in Flutter:
-* **Analysis**: The Flutter tool analyzes the app's codebase, including all the Dart files, libraries, and dependencies.
-* **Identification**: The tree shaking mechanism uses static analysis to identify parts of the code that are never used.
-* **Removal**: The unused code is removed from the final compiled app.
+* **Analysis**: The Flutter tool analyzes the app's codebase, including all the Dart files, libraries, and dependencies.  
+* **Identification**: The tree shaking mechanism uses static analysis to identify parts of the code that are never used.  
+* **Removal**: The unused code is removed from the final compiled app.  
 * **Optimization**: Tree shaking can also lead to other optimizations.
 
 **Note:** Tree shaking is active by default in release builds, but it can't be applied in debug mode.
@@ -898,7 +897,7 @@ Here's how tree shaking works in Flutter:
 
 **Flutter Inspector:**  
 **Performance:**
-\- For 60FPS it required to each frame should take 16ms to render if it takes longer than this then OS starts skip those frame- For 60FPS it required to each frame should take 16ms to render if it takes longer than this then OS starts skip those frames, thats know as Jank (Slow Frame)s.
+\- For 60FPS it required to each frame should take 16ms to render if it takes longer than this then OS starts skip those frame- For 60FPS it required to each frame should take 16ms to render if it takes longer than this then OS starts skip those frames, thats know as Jank (Slow Frames).  
 **CPU Profiler:**  
 **Memory:**  
 **Debugger:**  
